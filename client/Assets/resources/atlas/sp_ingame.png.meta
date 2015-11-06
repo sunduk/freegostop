@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 74365c6201c9b3849a66e25c9a713feb
+timeCreated: 1446820121
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: atlas
+    21300002: back
+    21300004: go_06
+    21300006: go_05
+    21300008: go_02
+    21300010: go_03
+    21300012: go_04
+    21300014: go_09
+    21300016: go_01
+    21300018: stop_noti
+    21300020: go_07
+    21300022: go_08
+    21300024: popup_bg
+    21300026: ppuk
+    21300028: clean
+    21300030: kiss
+    21300032: bomb
+    21300034: point
+    21300036: stop
+    21300038: win
+    21300040: lose
+    21300042: no
+    21300044: yes
+    21300046: go
+    21300048: ddadak01
+    21300050: ddadak02
+    21300052: kookjin_title
+    21300054: heart
+    21300056: shaking_title
+    21300058: shaked
+    21300060: black
+    21300062: bg
+    21300064: box
+    21300066: box
+    21300068: box
+    21300070: box
+    21300072: box
+    21300074: man
+    21300076: table
+    21300078: focus
+    21300080: gray
+    21300082: playerinfo_bg
+    21300084: title
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: title
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 480
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: table
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 481
+        width: 800
+        height: 480
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: box
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 300
+        height: 200
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: focus
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 0
+        width: 611
+        height: 90
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: back
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 0
+        width: 186
+        height: 290
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_08
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 91
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stop_noti
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 201
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_07
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 91
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_09
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 291
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_01
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 308
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_06
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 418
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_02
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 308
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_03
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 508
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_05
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 508
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: go_04
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 525
+        width: 239
+        height: 216
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ppuk
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 291
+        width: 199
+        height: 139
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clean
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 635
+        width: 235
+        height: 87
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kiss
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 723
+        width: 149
+        height: 108
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bomb
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 525
+        width: 161
+        height: 84
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: point
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 91
+        width: 116
+        height: 108
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: man
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 0
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: playerinfo_bg
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 101
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lose
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 202
+        width: 136
+        height: 71
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: win
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 431
+        width: 136
+        height: 71
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ddadak01
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 200
+        width: 82
+        height: 87
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ddadak02
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 723
+        width: 81
+        height: 87
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heart
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 431
+        width: 77
+        height: 75
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gray
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 274
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: black
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 274
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 274
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

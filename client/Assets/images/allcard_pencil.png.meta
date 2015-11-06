@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 3aa33a832c84e764f8a360cef460a945
+timeCreated: 1442026962
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hwatoo12_01
+    21300002: hwatoo12_02
+    21300004: hwatoo12_03
+    21300006: hwatoo12_04
+    21300008: hwatoo11_01
+    21300010: hwatoo11_02
+    21300012: hwatoo11_03
+    21300014: hwatoo11_04
+    21300016: hwatoo10_01
+    21300018: hwatoo10_02
+    21300020: hwatoo10_03
+    21300022: hwatoo10_04
+    21300024: hwatoo09_01
+    21300026: hwatoo09_02
+    21300028: hwatoo09_03
+    21300030: hwatoo09_04
+    21300032: hwatoo08_01
+    21300034: hwatoo08_02
+    21300036: hwatoo08_03
+    21300038: hwatoo08_04
+    21300040: hwatoo07_01
+    21300042: hwatoo07_02
+    21300044: hwatoo07_03
+    21300046: hwatoo07_04
+    21300048: hwatoo06_01
+    21300050: hwatoo06_02
+    21300052: hwatoo06_03
+    21300054: hwatoo06_04
+    21300056: hwatoo05_01
+    21300058: hwatoo05_02
+    21300060: hwatoo05_03
+    21300062: hwatoo05_04
+    21300064: hwatoo04_01
+    21300066: hwatoo04_02
+    21300068: hwatoo04_03
+    21300070: hwatoo04_04
+    21300072: hwatoo03_01
+    21300074: hwatoo03_02
+    21300076: hwatoo03_03
+    21300078: hwatoo03_04
+    21300080: hwatoo02_01
+    21300082: hwatoo02_02
+    21300084: hwatoo02_03
+    21300086: hwatoo02_04
+    21300088: hwatoo01_01
+    21300090: hwatoo01_02
+    21300092: hwatoo01_03
+    21300094: hwatoo01_04
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: hwatoo12_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3190
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo12_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3190
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo12_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 3190
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo12_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 3190
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo11_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2900
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo11_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2900
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo11_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2900
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo11_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2900
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo10_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2610
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo10_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2610
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo10_03
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2610
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo10_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2610
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo09_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2320
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo09_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2320
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo09_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2320
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo09_04
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2320
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo08_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2030
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo08_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2030
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo08_03
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 2030
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo08_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2030
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo07_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo07_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1740
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo07_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1740
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo07_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1740
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo06_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1450
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo06_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1450
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo06_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1450
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo06_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1450
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo05_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1160
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo05_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1160
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo05_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1160
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo05_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1160
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo04_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo04_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 870
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo04_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 870
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo04_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 870
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo03_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo03_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 580
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo03_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 580
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo03_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 580
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo02_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo02_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 290
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo02_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 290
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo02_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 290
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo01_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo01_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo01_03
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hwatoo01_04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

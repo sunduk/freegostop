@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: e9f6c59a51f6f2247ba81a2fd4e74345
+timeCreated: 1442052263
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: allcard_0
+    21300002: allcard_1
+    21300004: allcard_2
+    21300006: allcard_3
+    21300008: allcard_4
+    21300010: allcard_5
+    21300012: allcard_6
+    21300014: allcard_7
+    21300016: allcard_8
+    21300018: allcard_9
+    21300020: allcard_10
+    21300022: allcard_11
+    21300024: allcard_12
+    21300026: allcard_13
+    21300028: allcard_14
+    21300030: allcard_15
+    21300032: allcard_16
+    21300034: allcard_17
+    21300036: allcard_18
+    21300038: allcard_19
+    21300040: allcard_20
+    21300042: allcard_21
+    21300044: allcard_22
+    21300046: allcard_23
+    21300048: allcard_24
+    21300050: allcard_25
+    21300052: allcard_26
+    21300054: allcard_27
+    21300056: allcard_28
+    21300058: allcard_29
+    21300060: allcard_30
+    21300062: allcard_31
+    21300064: allcard_32
+    21300066: allcard_33
+    21300068: allcard_34
+    21300070: allcard_35
+    21300072: allcard_36
+    21300074: allcard_37
+    21300076: allcard_38
+    21300078: allcard_39
+    21300080: allcard_40
+    21300082: allcard_41
+    21300084: allcard_42
+    21300086: allcard_43
+    21300088: allcard_44
+    21300090: allcard_45
+    21300092: allcard_46
+    21300094: allcard_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: allcard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3190
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3190
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 3190
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_3
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 3190
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2900
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2900
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2900
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_7
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2900
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2610
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2610
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_10
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2610
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_11
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2610
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2320
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2320
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2320
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_15
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2320
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2030
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2030
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_18
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2030
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_19
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2030
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_21
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1740
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_22
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1740
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_23
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1740
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1450
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1450
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_26
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1450
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_27
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1450
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1160
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_29
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1160
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_30
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1160
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_31
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1160
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_33
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 870
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_34
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 870
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_35
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 870
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_37
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 580
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_38
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 580
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_39
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 580
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_41
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 290
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_42
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 290
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_43
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 290
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_45
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_46
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: allcard_47
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 186
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
