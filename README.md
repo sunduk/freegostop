@@ -1,7 +1,7 @@
 # 맞고 오픈소스 프로젝트
 ## The Korean flower card game(GoStop)
 
-![게임 스크린샷](http://dev.naver.com/wiki/matgoproject/pds/FrontPage/go_2.png)
+![게임 스크린샷](https://github.com/sunduk/freegostop/blob/master/promotion_images/main.png)
 
 ## 소개
 - 오픈소스로 개발되는 2인 고스톱(맞고) 프로젝트 입니다.
