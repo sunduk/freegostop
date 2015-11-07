@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 74365c6201c9b3849a66e25c9a713feb
-timeCreated: 1446820121
+timeCreated: 1446871425
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -47,6 +47,8 @@ TextureImporter:
     21300080: gray
     21300082: playerinfo_bg
     21300084: title
+    21300086: star_red
+    21300088: star_yellow
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -362,7 +364,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: gray
+    - name: black
       rect:
         serializedVersion: 2
         x: 1901
@@ -372,7 +374,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: black
+    - name: gray
       rect:
         serializedVersion: 2
         x: 1918

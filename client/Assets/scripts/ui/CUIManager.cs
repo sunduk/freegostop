@@ -17,7 +17,8 @@ public enum UI_PAGE
 	POPUP_STOP,
 	POPUP_FIRST_PLAYER,
 	GAME_OPTION,
-	MAIN_MENU
+	MAIN_MENU,
+	CREDIT_BAR
 }
 
 public class CUIManager : CSingletonMonobehaviour<CUIManager>
@@ -28,6 +29,7 @@ public class CUIManager : CSingletonMonobehaviour<CUIManager>
 	{
 		this.ui_objects = new Dictionary<UI_PAGE, GameObject>();
 		this.ui_objects.Add(UI_PAGE.MAIN_MENU, transform.FindChild("main_menu").gameObject);
+		this.ui_objects.Add(UI_PAGE.CREDIT_BAR, transform.FindChild("credit").gameObject);
 		this.ui_objects.Add(UI_PAGE.POPUP_PLAYER_ORDER, transform.FindChild("popup_player_order").gameObject);
 		this.ui_objects.Add(UI_PAGE.POPUP_CHOICE_CARD, transform.FindChild("popup_choice_card").gameObject);
 		this.ui_objects.Add(UI_PAGE.POPUP_GO_STOP, transform.FindChild("popup_gostop").gameObject);
