@@ -18,9 +18,10 @@ public class CMainMenu : MonoBehaviour
 
 	void on_play()
 	{
-		this.room.SetActive(true);
+		//this.room.SetActive(true);
 		this.ef_intro.SetActive(false);
-		CUIManager.Instance.hide(UI_PAGE.CREDIT_BAR);
-		CUIManager.Instance.hide(UI_PAGE.MAIN_MENU);
+		//CUIManager.Instance.hide(UI_PAGE.CREDIT_BAR);
+		//CUIManager.Instance.hide(UI_PAGE.MAIN_MENU);
+		CUIManager.Instance.show(UI_PAGE.STAGE_SELECT);
 	}
 }

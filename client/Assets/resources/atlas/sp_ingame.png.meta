@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 74365c6201c9b3849a66e25c9a713feb
-timeCreated: 1446871425
+timeCreated: 1446894851
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -49,6 +49,8 @@ TextureImporter:
     21300084: title
     21300086: star_red
     21300088: star_yellow
+    21300090: coin_bar
+    21300092: npc_001
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -94,7 +96,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: title
+    - name: table
       rect:
         serializedVersion: 2
         x: 0
@@ -104,7 +106,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: table
+    - name: title
       rect:
         serializedVersion: 2
         x: 0
@@ -144,7 +146,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_08
+    - name: go_03
       rect:
         serializedVersion: 2
         x: 1102
@@ -154,7 +156,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: stop_noti
+    - name: go_02
       rect:
         serializedVersion: 2
         x: 801
@@ -164,7 +166,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_07
+    - name: go_04
       rect:
         serializedVersion: 2
         x: 1342
@@ -174,7 +176,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_09
+    - name: go_05
       rect:
         serializedVersion: 2
         x: 1582
@@ -184,7 +186,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_01
+    - name: go_06
       rect:
         serializedVersion: 2
         x: 1041
@@ -194,7 +196,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_06
+    - name: stop_noti
       rect:
         serializedVersion: 2
         x: 801
@@ -204,7 +206,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_02
+    - name: go_08
       rect:
         serializedVersion: 2
         x: 1281
@@ -214,7 +216,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_03
+    - name: go_07
       rect:
         serializedVersion: 2
         x: 1521
@@ -224,7 +226,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_05
+    - name: go_01
       rect:
         serializedVersion: 2
         x: 1761
@@ -234,7 +236,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: go_04
+    - name: go_09
       rect:
         serializedVersion: 2
         x: 1041
@@ -254,11 +256,21 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: coin_bar
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 725
+        width: 319
+        height: 70
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: clean
       rect:
         serializedVersion: 2
-        x: 801
-        y: 635
+        x: 1281
+        y: 525
         width: 235
         height: 87
       alignment: 9
@@ -267,8 +279,8 @@ TextureImporter:
     - name: kiss
       rect:
         serializedVersion: 2
-        x: 801
-        y: 723
+        x: 1281
+        y: 613
         width: 149
         height: 108
       alignment: 9
@@ -277,8 +289,8 @@ TextureImporter:
     - name: bomb
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 525
+        x: 801
+        y: 635
         width: 161
         height: 84
       alignment: 9
@@ -294,7 +306,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: man
+    - name: playerinfo_bg
       rect:
         serializedVersion: 2
         x: 1901
@@ -304,7 +316,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: playerinfo_bg
+    - name: man
       rect:
         serializedVersion: 2
         x: 1901
@@ -314,7 +326,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: lose
+    - name: win
       rect:
         serializedVersion: 2
         x: 1901
@@ -324,7 +336,7 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: win
+    - name: lose
       rect:
         serializedVersion: 2
         x: 1822
@@ -337,8 +349,8 @@ TextureImporter:
     - name: ddadak01
       rect:
         serializedVersion: 2
-        x: 1582
-        y: 200
+        x: 1431
+        y: 613
         width: 82
         height: 87
       alignment: 9
@@ -347,8 +359,8 @@ TextureImporter:
     - name: ddadak02
       rect:
         serializedVersion: 2
-        x: 951
-        y: 723
+        x: 1582
+        y: 200
         width: 81
         height: 87
       alignment: 9
@@ -364,21 +376,31 @@ TextureImporter:
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: black
+    - name: npc_001
       rect:
         serializedVersion: 2
-        x: 1901
-        y: 274
-        width: 16
-        height: 16
+        x: 1041
+        y: 201
+        width: 60
+        height: 60
       alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: gray
       rect:
         serializedVersion: 2
-        x: 1918
-        y: 274
+        x: 1431
+        y: 701
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: black
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 701
         width: 16
         height: 16
       alignment: 9
@@ -387,8 +409,8 @@ TextureImporter:
     - name: bg
       rect:
         serializedVersion: 2
-        x: 1935
-        y: 274
+        x: 1465
+        y: 701
         width: 8
         height: 8
       alignment: 9

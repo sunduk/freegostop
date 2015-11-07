@@ -18,7 +18,8 @@ public enum UI_PAGE
 	POPUP_FIRST_PLAYER,
 	GAME_OPTION,
 	MAIN_MENU,
-	CREDIT_BAR
+	CREDIT_BAR,
+	STAGE_SELECT,
 }
 
 public class CUIManager : CSingletonMonobehaviour<CUIManager>
@@ -41,6 +42,7 @@ public class CUIManager : CSingletonMonobehaviour<CUIManager>
 		this.ui_objects.Add(UI_PAGE.POPUP_STOP, transform.FindChild("popup_stop").gameObject);
 		this.ui_objects.Add(UI_PAGE.POPUP_FIRST_PLAYER, transform.FindChild("popup_first_player").gameObject);
 		this.ui_objects.Add(UI_PAGE.GAME_OPTION, transform.FindChild("option_cardhint").gameObject);
+		this.ui_objects.Add(UI_PAGE.STAGE_SELECT, transform.FindChild("stage").gameObject);
 	}
 
 
