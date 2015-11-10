@@ -13,6 +13,8 @@ public class CMainMenu : MonoBehaviour
 		transform.FindChild("button_play").GetComponent<Button>().onClick.AddListener(this.on_play);
 
 		this.ef_intro = GameObject.Find("ef_falling");
+
+		CTableDataManager.Instance.load_all();
 	}
 
 
@@ -23,5 +25,6 @@ public class CMainMenu : MonoBehaviour
 		//CUIManager.Instance.hide(UI_PAGE.CREDIT_BAR);
 		//CUIManager.Instance.hide(UI_PAGE.MAIN_MENU);
 		CUIManager.Instance.show(UI_PAGE.STAGE_SELECT);
+		CUIManager.Instance.get_uipage(UI_PAGE.STAGE_SELECT).GetComponent<CStageSelect>().show();
 	}
 }

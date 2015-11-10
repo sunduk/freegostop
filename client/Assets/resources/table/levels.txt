@@ -1,0 +1,10 @@
+﻿[{"level":1,"name":"훈련용 버드","grade":"하수","icon":null,"point":100,"money":10000},
+{"level":2,"name":"관악산 사슴","grade":"하수","icon":null,"point":500,"money":50000},
+{"level":3,"name":"북한산 맷돼지","grade":"하수","icon":null,"point":1000,"money":100000},
+{"level":4,"name":"화이트 문","grade":"중수","icon":null,"point":5000,"money":500000},
+{"level":5,"name":"레드아이 버드","grade":"중수","icon":null,"point":10000,"money":1000000},
+{"level":6,"name":"젤리젤리","grade":"중수","icon":null,"point":50000,"money":5000000},
+{"level":7,"name":"노랑나비","grade":"고수","icon":null,"point":100000,"money":10000000},
+{"level":8,"name":"개구리 장군","grade":"고수","icon":null,"point":500000,"money":50000000},
+{"level":9,"name":"의문의 타짜","grade":"고수","icon":null,"point":1000000,"money":100000000},
+{"level":10,"name":"비광 아저씨","grade":"신","icon":null,"point":5000000,"money":500000000}]
