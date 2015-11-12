@@ -11,12 +11,17 @@ public class CAIPlayer
 	byte player_index;
 	List<CCard> hand_cards;
 
+	CBrain brain;
+	CFloorCardManager floor_card_manager;
+
     CLocalServer local_server;
 
     public CAIPlayer(CLocalServer local_server)
     {
         this.local_server = local_server;
+		this.brain = new CBrain();
 		this.hand_cards = new List<CCard>();
+		this.floor_card_manager = new CFloorCardManager();
 		reset();
 
         this.packet_handler = new Dictionary<PROTOCOL, PacketFn>();
@@ -35,6 +40,7 @@ public class CAIPlayer
 	public void reset()
 	{
 		this.hand_cards.Clear();
+		this.floor_card_manager.reset();
 	}
 
 
@@ -88,6 +94,7 @@ public class CAIPlayer
 
 			CCard card = new CCard(number, pae_type, position);
 			floor_cards.Enqueue(card);
+			this.floor_card_manager.puton_card(card);
 		}
 
 
@@ -120,9 +127,29 @@ public class CAIPlayer
     }
 
 
+	void update_floor_cards(CPacket msg)
+	{
+		this.floor_card_manager.reset();
+		byte slot_count = msg.pop_byte();
+		for (byte i = 0; i < slot_count; ++i)
+		{
+			byte card_count = msg.pop_byte();
+			for (byte card_index = 0; card_index < card_count; ++card_index)
+			{
+				byte number = msg.pop_byte();
+				PAE_TYPE pae_type = (PAE_TYPE)msg.pop_byte();
+				byte position = msg.pop_byte();
+
+				this.floor_card_manager.puton_card(new CCard(number, pae_type, position));
+			}
+		}
+	}
+
+
 	void ON_START_TURN(CPacket msg)
 	{
 		byte remain_bomb_card_count = msg.pop_byte();
+		update_floor_cards(msg);
 
 		if (remain_bomb_card_count > 0)
 		{
@@ -131,7 +158,7 @@ public class CAIPlayer
 		}
 		else
 		{
-			byte slot_index = 0;
+			byte slot_index = this.brain.choice_card_to_put(this.hand_cards, null, this.floor_card_manager);
 			CPacket card_msg = CPacket.create((short)PROTOCOL.SELECT_CARD_REQ);
 			CCard card = this.hand_cards[slot_index];
 

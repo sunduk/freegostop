@@ -15,7 +15,7 @@ public class CGostopEngine
 	byte first_player_index;
 	List<CPlayerAgent> player_agents;
 
-	CFloorCardManager floor_manager;
+	public CFloorCardManager floor_manager { get; private set; }
 
 	// 게임 진행시 카드 정보들을 저장해놓을 임시 변수들.
 	// 한턴이 끝나면 모두 초기화 시켜줘야 한다.

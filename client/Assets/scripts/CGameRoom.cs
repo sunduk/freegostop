@@ -115,6 +115,7 @@ public class CGameRoom
 					if (all_received(protocol))
 					{
 						CPacket turn_msg = CPacket.create((short)PROTOCOL.START_TURN);
+						turn_msg.push((byte)0);
 						this.players[this.engine.current_player_index].send(turn_msg);
 					}
 				}
@@ -332,8 +333,25 @@ public class CGameRoom
 
 		this.engine.clear_turn_data();
 		this.engine.move_to_next_player();
+
 		CPacket turn_msg = CPacket.create((short)PROTOCOL.START_TURN);
 		turn_msg.push(this.players[this.engine.current_player_index].agent.remain_bomb_count);
+
+		// 바닥 카드 갱신을 위한 데이터.
+		List<CFloorSlot> slots = this.engine.floor_manager.slots;
+		turn_msg.push((byte)slots.Count);
+		for (int i = 0; i < slots.Count; ++i)
+		{
+			turn_msg.push((byte)slots[i].cards.Count);
+			for (int card_index = 0; card_index < slots[i].cards.Count; ++card_index)
+			{
+				CCard card = slots[i].cards[card_index];
+				turn_msg.push(card.number);
+				turn_msg.push((byte)card.pae_type);
+				turn_msg.push(card.position);
+			}
+		}
+
 		this.players[this.engine.current_player_index].send(turn_msg);
 	}
 

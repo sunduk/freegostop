@@ -8,7 +8,7 @@ public class CFloorCardManager
 	List<CCard> begin_cards;
 
 	// 같은 번호의 카드를 하나로 묶어서 보관하는 컨테이너. 바닥 카드 정렬 이후에는 이 컨테이너를 사용한다.
-	List<CFloorSlot> slots;
+	public List<CFloorSlot> slots { get; private set; }
 
 	
 	public CFloorCardManager()
