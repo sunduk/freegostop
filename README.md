@@ -15,7 +15,7 @@
 
 
 ## 카드 이미지 소개
-![카드 이미지 소개](http://dev.naver.com/wiki/matgoproject/pds/FrontPage/allcard.png)
+![카드 이미지 소개](https://github.com/sunduk/freegostop/blob/master/promotion_images/allcard.png?raw=true)
 - 기존의 화투 이미지의 특징을 뽑아 심플하게 재구성 하였습니다.
 - 카드 위쪽에 숫자를 표시해 알아보기 쉽게 만들었습니다.
 
